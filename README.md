@@ -15,7 +15,7 @@ Now, here a *summary* of what I did during several weeks :
 
 - Check that each extension works properly after the PTUT (Clang-Tidy and Clang-Format)
 
-[ ] Watch a video about Naming : [Kevlin Henney, Clean Coders Hate What Happens to Your Code When You Use These Enterprise Programming Tricks] https://youtu.be/FyCYva9DhsI?t=2490
+[ ] Watch a video about Naming : [Kevlin Henney, Clean Coders Hate What Happens to Your Code When You Use These Enterprise Programming Tricks] (https://youtu.be/FyCYva9DhsI?t=2490)
 
 #### <ins>Notes</ins> :
 

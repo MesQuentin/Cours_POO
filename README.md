@@ -13,7 +13,9 @@ Now, here a *summary* of what I did during several weeks :
 
 - Repo downloaded from JulesFouchy/Simple-Cpp-Setup
 
-- Check that each extension works properly after the PTUT
+- Check that each extension works properly after the PTUT (Clang-Tidy and Clang-Format)
+
+[ ] Watch a video about Naming : [Kevlin Henney, Clean Coders Hate What Happens to Your Code When You Use These Enterprise Programming Tricks] https://youtu.be/FyCYva9DhsI?t=2490
 
 #### <ins>Notes</ins> :
 
@@ -25,6 +27,7 @@ _Append "out" to non-const reference parameters_ Check the courses on it for exe
 
 ##### Stack vs Heap
 
-_Almost always use <ins>the Stack</ins> `int i = 3;` instead of `int* i = new int;`_, so variable don't disappear at the end of the loop.
+_Almost always use <ins>the Stack</ins>_ `int i = 3;` _instead of_`int* i = new int;`, so variable don't disappear at the end of the loop.
 Use the Heap for big things, polymorphism and varying-size objects.
 
+##### 

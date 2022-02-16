@@ -14,7 +14,7 @@ Now, here a *summary* of what I did during several weeks :
 
 - Check that each extension works properly after the PTUT (Clang-Tidy and Clang-Format)
 
-- [ ] Watch a video about Naming : [Kevlin Henney, Clean Coders Hate What Happens to Your Code When You Use These Enterprise Programming Tricks](https://youtu.be/FyCYva9DhsI?t=2490)
+- [x] Watch a video about Naming : [Kevlin Henney, Clean Coders Hate What Happens to Your Code When You Use These Enterprise Programming Tricks](https://youtu.be/FyCYva9DhsI?t=2490)
 
 **Wednesday 9th February, I read from [Introduction] to [Make it work, then make it good]** 
 
@@ -36,4 +36,26 @@ Use the Heap for big things, polymorphism and varying-size objects.
 _**Be consistent in style.**_ It's stupid but logic. I'm watching you, Quentin-to-be. Don't be an a** and be consistent.
 
 ### Level 2
+
+
+## Assignment
+
+### Guess a number
+
+- [x] Try without reading the tips
+-> Succeed at first try
+
+- [x] Improve written code
+
+#### <ins>Notes</ins> :
+
+Look at the function that checks if the user has returned the right type of argument. It's entilted `int user_take_a_guess()`
+Could be useful later.
+
+#### Guess a number is working !
+
+
+
+
+
 

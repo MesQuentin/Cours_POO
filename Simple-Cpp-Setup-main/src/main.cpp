@@ -1,6 +1,9 @@
 #include <iostream>
+#include <random>
+#include "guess_a_number.h"
 
 int main()
 {
-    std::cout << "Hello World\n";
+    guess_a_number();
+    return 0;
 }

@@ -18,6 +18,29 @@ int randomize_0_to_100()
     return distribution(generator);
 }
 
+void is_the_player_bad(int nb_tries)
+{
+    if (nb_tries == 5) {
+        std::cout << "Come on, you can do this !" << std::endl;
+    }
+
+    if (nb_tries == 10) {
+        std::cout << "You're quite long, you know ?" << std::endl;
+    }
+
+    if (nb_tries == 15) {
+        std::cout << "Dude... Come on ..." << std::endl;
+    }
+
+    if (nb_tries == 20) {
+        std::cout << "That's painful to watch" << std::endl;
+    }
+
+    if (nb_tries == 30) {
+        std::cout << "Are you even trying ? *sigh* Alright, do as you can. I'll leave you alone ..." << std::endl;
+    }
+}
+
 int user_take_a_guess()
 {
     int guess;
@@ -49,9 +72,12 @@ void guess_a_number()
 {
     int  solution    = init();
     bool is_finished = false;
+    int  nb_tries    = 0;
 
     while (!is_finished) {
+        is_the_player_bad(nb_tries);
         int guess   = user_take_a_guess();
         is_finished = compare(solution, guess);
+        nb_tries += 1;
     }
 }

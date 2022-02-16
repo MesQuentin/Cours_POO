@@ -37,15 +37,33 @@ _**Be consistent in style.**_ It's stupid but logic. I'm watching you, Quentin-t
 
 ### Level 2
 
+- [x] Watch a video about Free function : [CppCon 2016: David Sankel “Building Software Capital: How to write the highest quality code and why"](https://www.youtube.com/watch?v=ta3S8CRN2TM&t=2158s)
+
+- [x] Check what Code Guidelines says about writing small function : [F.3: Keep functions short and simple](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-single)
+
+- [x] Watch a video about DRY (Don't Repeat Yourself) : [Keynote: SOLID, Revisited - Tony Van Eerd ](https://www.youtube.com/watch?v=glYq-dvgby4&t=4157s)
+
+- [x] Check what Fluent C++ says about CRTP : [The Curiously Recurring Template Pattern (CRTP)](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-single)
+
+
+**Wednesday 16th February, I read from [Prefer free functions] to [Composition over Inheritance]** 
+
+#### <ins>Notes</ins> :
+
+##### Use structs to group data
+
+There is a new way to initialyse struct with C++20 ! Check [this page](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/use-structs-to-group-data/) (extracted from Jules's lessons) to see it ! It's so much lisible !
 
 ## Assignment
 
 ### Guess a number
 
 - [x] Try without reading the tips
--> Succeed at first try
+-> Succeed without checking any tips
 
 - [x] Improve written code
+
+- [x] Add a motivationnal function for the player
 
 #### <ins>Notes</ins> :
 
@@ -54,7 +72,10 @@ Could be useful later.
 
 #### Guess a number is working !
 
+### Hangman
 
+
+- [] Try without reading the tips
 
 
 

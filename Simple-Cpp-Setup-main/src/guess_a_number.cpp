@@ -1,7 +1,6 @@
 #include "guess_a_number.h"
-#include <iostream>
-#include <random>
 
+namespace GuessANumber {
 int init()
 {
     std::cout << "I picked a number between 0 and 100" << std::endl;
@@ -67,17 +66,18 @@ int compare(int solution, int guess)
 
     return 0;
 }
+} // namespace GuessANumber
 
 void guess_a_number()
 {
-    int  solution    = init();
+    int  solution    = GuessANumber::init();
     bool is_finished = false;
     int  nb_tries    = 0;
 
     while (!is_finished) {
-        is_the_player_bad(nb_tries);
-        int guess   = user_take_a_guess();
-        is_finished = compare(solution, guess);
+        GuessANumber::is_the_player_bad(nb_tries);
+        int guess   = GuessANumber::user_take_a_guess();
+        is_finished = GuessANumber::compare(solution, guess);
         nb_tries += 1;
     }
 }

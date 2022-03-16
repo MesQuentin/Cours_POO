@@ -45,7 +45,6 @@ _**Be consistent in style.**_ It's stupid but logic. I'm watching you, Quentin-t
 
 - [x] Check what Fluent C++ says about CRTP : [The Curiously Recurring Template Pattern (CRTP)](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-single)
 
-
 **Wednesday 16th February, I read from [Prefer free functions] to [Composition over Inheritance]** 
 
 #### <ins>Notes</ins> :
@@ -53,6 +52,28 @@ _**Be consistent in style.**_ It's stupid but logic. I'm watching you, Quentin-t
 ##### Use structs to group data
 
 There is a new way to initialyse struct with C++20 ! Check [this page](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/use-structs-to-group-data/) (extracted from Jules's lessons) to see it ! It's so much lisible !
+
+### Level 3
+
+- [x] Watch a video from The Cherno about std::vector : [Dynamic Arrays in C++ (std::vector)](https://www.youtube.com/watch?v=PocJ5jXv8No)
+
+- [ ] Watch a first video about testing : [CppCon 2015: T. Winters & H. Wright](https://www.youtube.com/watch?v=u5senBJUkPc)
+      Then a second video : [CppCon 2016: David Sankel](https://www.youtube.com/watch?v=ta3S8CRN2TM&t=1306s)
+      And a third : [Kevlin Henney - Programming with GUTs](https://www.youtube.com/watch?v=cfh6ZrA19r4&t=983s)
+
+- [x] Watch a video about dependecies : [Import as an antipattern - Demystifying Dependency Injection in modern Python](https://www.youtube.com/watch?v=qkGxy4c64Jg)
+
+- [x] Read the article about std::optionnal [Using C++17 std::optional](https://www.cppstories.com/2018/05/using-optional/)
+
+- [x] Read the article about Strong Typing [Strong types for strong interfaces](https://www.fluentcpp.com/2016/12/08/strong-types-for-strong-interfaces/)
+
+**Wednesday 16th March, I read from [std::vector] to [Strong Typing]** 
+
+#### <ins>Notes</ins> :
+
+##### Check again Strong Typing
+
+Strong typing is a really interesting topic and I went over it a bit quickly. Check the article again, it will help you later.
 
 ## Assignment
 
@@ -74,8 +95,18 @@ Could be useful later.
 
 ### Hangman
 
+- [x] Try without reading the tips
+-> Fail ! Got an compilator error unsolved ! In fact, can't even build the project ! Sooooo, let's go next ......
 
-- [] Try without reading the tips
+- Push the failed project on a seperate branch called "Hangman [WIP]"
+ 
+- [ ] Succeed to launch Hangman
+
+### Menu
+
+- [ ] Create a menu to play the different game
+-> WIP
+
 
 
 

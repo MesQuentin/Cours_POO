@@ -98,7 +98,7 @@ Could be useful later.
 - [x] Try without reading the tips
 -> Fail ! Got an compilator error unsolved ! In fact, can't even build the project ! Sooooo, let's go next ......
 
-- Push the failed project on a seperate branch called "Hangman [WIP]"
+- Push the failed project on a seperate branch called "Hangman Pb"
  
 - [ ] Succeed to launch Hangman
 

@@ -1,6 +1,4 @@
 #include "guess_a_number.h"
-#include <iostream>
-#include <random>
 
 int init()
 {
@@ -41,18 +39,7 @@ void is_the_player_bad(int nb_tries)
     }
 }
 
-int user_take_a_guess()
-{
-    int guess;
-    while (!(std::cin >> guess)) {
-        std::cin.clear();
-        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-        std::cout << "Invalid input; please enter a int between 0 and 100 ^^ .\n";
-    }
-    return guess;
-}
-
-int compare(int solution, int guess)
+bool compare(int solution, int guess)
 {
     if (solution < guess) {
         std::cout << "Lower !" << std::endl;
@@ -62,22 +49,22 @@ int compare(int solution, int guess)
     }
     if (solution == guess) {
         std::cout << "Congrats, you won !" << std::endl;
-        return 1;
+        return true;
     }
 
-    return 0;
+    return false;
 }
 
 void guess_a_number()
 {
-    int  solution    = init();
-    bool is_finished = false;
-    int  nb_tries    = 0;
+    const int solution    = init();
+    bool      is_finished = false;
+    int       nb_tries    = 0;
 
     while (!is_finished) {
         is_the_player_bad(nb_tries);
-        int guess   = user_take_a_guess();
-        is_finished = compare(solution, guess);
+        const auto guess = get_input_from_user<int>();
+        is_finished      = compare(solution, guess);
         nb_tries += 1;
     }
 }

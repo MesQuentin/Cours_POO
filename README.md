@@ -57,7 +57,7 @@ There is a new way to initialyse struct with C++20 ! Check [this page](https://j
 
 - [x] Watch a video from The Cherno about std::vector : [Dynamic Arrays in C++ (std::vector)](https://www.youtube.com/watch?v=PocJ5jXv8No)
 
-- [ ] Watch a first video about testing : [CppCon 2015: T. Winters & H. Wright](https://www.youtube.com/watch?v=u5senBJUkPc)
+- [x] Watch a first video about testing : [CppCon 2015: T. Winters & H. Wright](https://www.youtube.com/watch?v=u5senBJUkPc)
       Then a second video : [CppCon 2016: David Sankel](https://www.youtube.com/watch?v=ta3S8CRN2TM&t=1306s)
       And a third : [Kevlin Henney - Programming with GUTs](https://www.youtube.com/watch?v=cfh6ZrA19r4&t=983s)
 
@@ -96,16 +96,25 @@ Could be useful later.
 ### Hangman
 
 - [x] Try without reading the tips
--> Fail ! Got an compilator error unsolved ! In fact, can't even build the project ! Sooooo, let's go next ......
+-> Fail ! Got an compilator error ~~unsolved~~ !
 
 - Push the failed project on a seperate branch called "Hangman Pb"
  
-- [ ] Succeed to launch Hangman
+- [x] Hangman able to build : several "const" were missing in the header
+
+- [ ] Succeed to launch a funtionnable Hangman
+
+- [ ] Improve written code
 
 ### Menu
 
-- [ ] Create a menu to play the different game
--> WIP
+- [x] Create a menu to play the different game
+
+- [ ] Create a whole text rpg adventure accesible in the menu. Because life is an adventure.
+
+- [ ] Improve written code
+
+
 
 
 

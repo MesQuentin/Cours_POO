@@ -9,7 +9,22 @@ int main()
     while (!quit) {
         command_list();
         const auto choice = get_input_from_user<char>();
+        switch (choice) {
+        case '1':
+            guess_a_number();
+
+            // case '2':
+            //     hangman();
+
+            // case '3':
+            //     adventure();
+
+        case '4':
+            std::cout << "*The old man looks at you with a sad look. He looks like a wet labrador." << std::endl;
+            std::cout << " You walk away, ignoring the pitying looks he gives you*" << std::endl
+                      << std::endl;
+            quit = true;
+        }
     }
-    guess_a_number();
     return 0;
 }

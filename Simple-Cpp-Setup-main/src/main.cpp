@@ -1,11 +1,11 @@
 #include <iostream>
-#include <random>
+// #include "general_store.h"
 #include "guess_a_number.h"
 #include "hangman.h"
+// #include "menu.h"
 
 int main()
 {
-    guess_a_number();
-    // hangman();
+    hangman();
     return 0;
 }

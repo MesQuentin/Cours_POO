@@ -6,7 +6,7 @@ target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_17)
 
 # Enable many good warnings
 if (MSVC)
-    target_compile_options(${PROJECT_NAME} PRIVATE /WX /W3)
+    # target_compile_options(${PROJECT_NAME} PRIVATE /WX /W3)
 else()
     target_compile_options(${PROJECT_NAME} PRIVATE -Werror -Wall -Wextra -Wpedantic -pedantic-errors)
 endif()

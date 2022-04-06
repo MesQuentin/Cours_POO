@@ -1,5 +1,6 @@
 #include "guess_a_number.h"
 
+namespace GuessANumber {
 int init()
 {
     std::cout << "I picked a number between 0 and 100" << std::endl;
@@ -54,6 +55,7 @@ bool compare(int solution, int guess)
 
     return false;
 }
+} // namespace GuessANumber
 
 void guess_a_number()
 {

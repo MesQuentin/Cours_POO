@@ -82,9 +82,11 @@ Strong typing is a really interesting topic and I went over it a bit quickly. Ch
 - [x] Try without reading the tips
 -> Succeed without checking any tips
 
-- [x] Improve written code
+- [x] Improve written code with Jules' advice : synthetize better
 
 - [x] Add a motivationnal function for the player
+
+- [ ] Solve the problem of `T get_input_from_user()` : infinite loop
 
 #### <ins>Notes</ins> :
 
@@ -104,7 +106,11 @@ Could be useful later.
 
 - [ ] Succeed to launch a funtionnable Hangman
 
-- [ ] Improve written code
+- [ ] Improve written code with Jules' advice : Use of strong type
+
+- [ ] Check if the user enter just a single letter
+
+- [ ] Add an text-intro
 
 ### Menu
 

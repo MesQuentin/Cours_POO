@@ -10,7 +10,3 @@ void command_list()
     std::cout << std::endl;
     std::cout << " 4. Politely refuse and leave  (Quit)" << std::endl;
 }
-
-void menu()
-{
-}

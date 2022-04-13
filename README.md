@@ -86,7 +86,7 @@ Strong typing is a really interesting topic and I went over it a bit quickly. Ch
 
 - [x] Add a motivationnal function for the player
 
-- [ ] Solve the problem of `T get_input_from_user()` : infinite loop
+- [ ] Solve the problem of `T get_input_from_user()` : infinite loop if wrong input
 
 #### <ins>Notes</ins> :
 
@@ -104,13 +104,17 @@ Could be useful later.
  
 - [x] Hangman able to build : several "const" were missing in the header
 
-- [ ] Succeed to launch a funtionnable Hangman
+- [x] Succeed to launch a funtionnable Hangman
 
-- [ ] Improve written code with Jules' advice : Use of strong type
+- [x] Improve written code with Jules' advice : Use of strong type
 
 - [ ] Check if the user enter just a single letter
 
-- [ ] Add an text-intro
+- [x] Add an text-intro
+
+- [ ] Add more word to the bank
+
+#### Hangman is working !
 
 ### Menu
 

@@ -59,14 +59,14 @@ bool compare(int solution, int guess)
 
 void guess_a_number()
 {
-    const int solution    = init();
+    const int solution    = GuessANumber::init();
     bool      is_finished = false;
     int       nb_tries    = 0;
 
     while (!is_finished) {
-        is_the_player_bad(nb_tries);
+        GuessANumber::is_the_player_bad(nb_tries);
         const auto guess = get_input_from_user<int>();
-        is_finished      = compare(solution, guess);
+        is_finished      = GuessANumber::compare(solution, guess);
         nb_tries += 1;
     }
 }

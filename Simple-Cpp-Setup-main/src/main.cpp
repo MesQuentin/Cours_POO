@@ -1,6 +1,7 @@
 #include <iostream>
 #include "general_store.h"
 #include "guess_a_number.h"
+#include "hangman.h"
 #include "menu.h"
 
 int main()
@@ -16,9 +17,10 @@ int main()
             std::cout << std::endl;
             break;
 
-            // case '2':
-            //     hangman();
-            //     break;
+        case '2':
+            hangman();
+            std::cout << std::endl;
+            break;
 
             // case '3':
             //     menudventure();

@@ -12,8 +12,14 @@ namespace Hangman {
 
 Word pick_a_word()
 {
-    Word              test("godasse");
-    std::vector<Word> bank = {test};
+    Word              godasse("godasse");
+    Word              hubris("hubris");
+    Word              nescience("nescience");
+    Word              hypocoristique("hypocoristique");
+    Word              genocidaire("genocidaire");
+    Word              gentleman("gentleman");
+    Word              ubuesque("ubuesque");
+    std::vector<Word> bank = {godasse, hubris, nescience, hypocoristique, genocidaire, gentleman, ubuesque};
 
     static std::default_random_engine  generator{std::random_device{}()};
     std::uniform_int_distribution<int> distribution{0, static_cast<int>(bank.size())};

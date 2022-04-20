@@ -3,7 +3,12 @@
 namespace GuessANumber {
 int init()
 {
+    std::cout << "Nice !" << std::endl;
+    std::cout << std::endl;
     std::cout << "I picked a number between 0 and 100" << std::endl;
+    std::cout << "* the old man smiles with all his teeth *" << std::endl;
+    std::cout << "* he whispers in your ear * That's how many children were abducted last week" << std::endl;
+    std::cout << std::endl;
     std::cout << "Take a guess !" << std::endl;
     int number = randomize_0_to_100();
 

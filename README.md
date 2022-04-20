@@ -8,6 +8,7 @@ Now, here a *summary* of what I did during several weeks :
 
 ## Lessons
 
+
 ### Level 1
 
 - Repo downloaded from JulesFouchy/Simple-Cpp-Setup
@@ -53,6 +54,7 @@ _**Be consistent in style.**_ It's stupid but logic. I'm watching you, Quentin-t
 
 There is a new way to initialyse struct with C++20 ! Check [this page](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/use-structs-to-group-data/) (extracted from Jules's lessons) to see it ! It's so much lisible !
 
+
 ### Level 3
 
 - [x] Watch a video from The Cherno about std::vector : [Dynamic Arrays in C++ (std::vector)](https://www.youtube.com/watch?v=PocJ5jXv8No)
@@ -65,15 +67,37 @@ There is a new way to initialyse struct with C++20 ! Check [this page](https://j
 
 - [x] Read the article about std::optionnal [Using C++17 std::optional](https://www.cppstories.com/2018/05/using-optional/)
 
-- [x] Read the article about Strong Typing [Strong types for strong interfaces](https://www.fluentcpp.com/2016/12/08/strong-types-for-strong-interfaces/)
+- [x] Read the article about Strong Types [Strong types for strong interfaces](https://www.fluentcpp.com/2016/12/08/strong-types-for-strong-interfaces/)
 
-**Wednesday 16th March, I read from [std::vector] to [Strong Typing]** 
+**Wednesday 16th March, I read from [std::vector] to [Strong Types]** 
+
+- [ ] Watch a video about std::optional [Ben Deane “Using Types Effectively"](https://www.youtube.com/watch?v=ojZbFIQSdl8)
+
+**Wednesday 20th April, I read from [Use libraries] to [Git submodules]** 
 
 #### <ins>Notes</ins> :
 
-##### Check again Strong Typing
+##### Strong Types
 
-Strong typing is a really interesting topic and I went over it a bit quickly. Check the article again, it will help you later.
+Strong typing is a really interesting topic and I went over it a bit quickly. Check the article again, it will help you later.  
+
+-> Done it ! It's really useful, so I'm writing this note here to come back to it on occasion
+
+##### Use libraries
+
+**Read the Fucking Manual** : that's where the acronym RFM comes from.  
+And use this small code to add your libraries on your Cmake.  
+`add_subdirectory(libname) target_link_libraries(${PROJECT_NAME} PRIVATE libname)`
+
+##### Lambda
+
+Page is empty for now. Come check later.
+
+##### Master your IDE
+
+Check this page to got useful shortcut (the page should fill up a little more over time)
+
+
 
 ## Assignment
 
@@ -86,6 +110,8 @@ Strong typing is a really interesting topic and I went over it a bit quickly. Ch
 
 - [x] Add a motivationnal function for the player
 
+- [x] Add an text-intro
+
 - [ ] Solve the problem of `T get_input_from_user()` : infinite loop if wrong input
 
 #### <ins>Notes</ins> :
@@ -97,7 +123,7 @@ Could be useful later.
 
 ### Hangman
 
-- [x] Try without reading the tips
+- [x] Try without reading the tips  
 -> Fail ! Got an compilator error ~~unsolved~~ !
 
 - Push the failed project on a seperate branch called "Hangman Pb"
@@ -112,17 +138,18 @@ Could be useful later.
 
 - [x] Add an text-intro
 
-- [ ] Add more word to the bank
+- [x] Add more word to the bank
 
 #### Hangman is working !
 
 ### Menu
 
-- [x] Create a menu to play the different game
+- [x] Create a menu without reading the tips  
+-> Suceed without using the tips !
 
 - [ ] Create a whole text rpg adventure accesible in the menu. Because life is an adventure.
 
-- [ ] Improve written code
+- [x] Improve written code : Add a Game struct
 
 
 

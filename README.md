@@ -25,7 +25,7 @@ Now, here a *summary* of what I did during several weeks :
 _Don't use abbreviations._ Already knew it but it's good to be reminded.
 
 _Append "out" to non-const reference parameters_ Check the courses on it for exemple.
--> When a parameter is going to have is values changed in a function, add an _out_ at the end of it to make it clear.
+--> When a parameter is going to have is values changed in a function, add an _out_ at the end of it to make it clear.
 
 ##### Stack vs Heap
 
@@ -81,7 +81,7 @@ There is a new way to initialyse struct with C++20 ! Check [this page](https://j
 
 Strong typing is a really interesting topic and I went over it a bit quickly. Check the article again, it will help you later.  
 
--> Done it ! It's really useful, so I'm writing this note here to come back to it on occasion
+--> Done it ! It's really useful, so I'm writing this note here to come back to it on occasion
 
 ##### Use libraries
 
@@ -104,7 +104,7 @@ Check this page to got useful shortcut (the page should fill up a little more ov
 ### Guess a number
 
 - [x] Try without reading the tips
--> Succeed without checking any tips
+--> Succeed without checking any tips
 
 - [x] Improve written code with Jules' advice : synthetize better
 
@@ -124,7 +124,7 @@ Could be useful later.
 ### Hangman
 
 - [x] Try without reading the tips  
--> Fail ! Got an compilator error ~~unsolved~~ !
+--> Fail ! Got an compilator error ~~unsolved~~ !
 
 - Push the failed project on a seperate branch called "Hangman Pb"
  
@@ -138,6 +138,8 @@ Could be useful later.
 
 - [x] Add an text-intro
 
+- Merge the branch "Hangman Pb" with the main branch
+
 - [x] Add more word to the bank
 
 #### Hangman is working !
@@ -145,14 +147,19 @@ Could be useful later.
 ### Menu
 
 - [x] Create a menu without reading the tips  
--> Suceed without using the tips !
+--> Suceed without using the tips !
 
 - [ ] Create a whole text rpg adventure accesible in the menu. Because life is an adventure.
 
 - [x] Improve written code : Add a Game struct
 
+#### The menu is working !
 
+### Nought and Crosses 
 
+- Install P6
+
+- [ ] Try without reading the tips  
 
 
 

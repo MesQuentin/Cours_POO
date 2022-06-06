@@ -125,7 +125,7 @@ Just watch the following video later :
 - [ ]  Pointers VS References : [Kate Gregory “Stop Teaching C"](https://www.youtube.com/watch?v=YnWhqhNdYyk&t=2253s)
 - [ ]  Avoid nested namespace : [Titus Winters “Hands-On With Abseil”](https://www.youtube.com/watch?v=xu7q8dGvuwk&t=1198s)
 
-**Monday 6th June, I finally finish reading everything ! YEAAAAAAAH ** 
+**Monday 6th June, I finally finish reading everything ! YEAAAAAAAH** 
 
 ## Assignment
 

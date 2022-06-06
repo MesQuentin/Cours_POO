@@ -10,8 +10,7 @@
 struct Game {
     std::string           name;
     std::function<void()> game;
-}
+};
 
 void menu();
 void command_list();
-void menudventure();

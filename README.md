@@ -78,7 +78,9 @@ There is a new way to initialyse struct with C++20 ! Check [this page](https://j
 
 
 - Try to learn CMake really hard. Didn't succeed.
+
 - [x] watch a video from mCoding about Cache and Branches : [C++ cache locality and branch predictability](https://www.youtube.com/watch?v=EmzdmqUWq3o)
+
 - [ ] Read an article from Jonathan Boccara about Polymorphism [The “Extract Interface” refactoring, at compile time](https://www.fluentcpp.com/2017/04/28/extract-interface-cpp/)
 
 **Saturday 4th June, read from  [STL algorithms] to [Space out your code]** 

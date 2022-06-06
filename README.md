@@ -71,9 +71,17 @@ There is a new way to initialyse struct with C++20 ! Check [this page](https://j
 
 **Wednesday 16th March, I read from [std::vector] to [Strong Types]** 
 
-- [ ] Watch a video about std::optional [Ben Deane “Using Types Effectively"](https://www.youtube.com/watch?v=ojZbFIQSdl8)
+
+- [x] Watch a video about std::optional [Ben Deane “Using Types Effectively"](https://www.youtube.com/watch?v=ojZbFIQSdl8)
 
 **Wednesday 20th April, I read from [Use libraries] to [Git submodules]** 
+
+
+- Try to learn CMake really hard. Didn't succeed.
+- [x] watch a video from mCoding about Cache and Branches : [C++ cache locality and branch predictability](https://www.youtube.com/watch?v=EmzdmqUWq3o)
+- [ ] Read an article from Jonathan Boccara about Polymorphism [The “Extract Interface” refactoring, at compile time](https://www.fluentcpp.com/2017/04/28/extract-interface-cpp/)
+
+**Saturday 4th June, read from  [STL algorithms] to [Space out your code]** 
 
 #### <ins>Notes</ins> :
 
@@ -97,7 +105,25 @@ Page is empty for now. Come check later.
 
 Check this page to got useful shortcut (the page should fill up a little more over time)
 
+##### CMake
 
+Check this page. Again and again. 
+There's too much useful information and you never will remember it all if you don't code some CMake.
+So, check this page later.
+
+### Level 4 & 5
+
+Don't get much to say : there's a lot to come back to / isn't written yet.
+Just watch the following video later :
+- [x] Dear ImGui : [BEST WAY to make Desktop Applications in C++](https://youtu.be/vWXrFetSH8w)
+- [ ]  Type erasure : [Klaus Iglberger - Breaking Dependencies: type erasure - a design analysis](https://youtu.be/jKt6A3wnDyI)
+- [ ]  Scope guard : [Andrei Alexandrescu “Declarative Control Flow"](https://www.youtube.com/watch?v=WjTrfoiB0MQ)
+- [x]  C++ casts : [Joshua Gerrard "The dangers of C-style casts"](https://www.youtube.com/watch?v=DAvZ3OG9cNo)
+- [ ]  Precomiled header : [Precompiled Headers in C++](https://www.youtube.com/watch?v=eSI4wctZUto)
+- [ ]  Pointers VS References : [Kate Gregory “Stop Teaching C"](https://www.youtube.com/watch?v=YnWhqhNdYyk&t=2253s)
+- [ ]  Avoid nested namespace : [Titus Winters “Hands-On With Abseil”](https://www.youtube.com/watch?v=xu7q8dGvuwk&t=1198s)
+
+**Monday 6th June, I finally finish reading everything ! YEAAAAAAAH ** 
 
 ## Assignment
 
@@ -160,7 +186,6 @@ Could be useful later.
 - Install P6
 
 - [ ] Try without reading the tips  
-
 
 
 

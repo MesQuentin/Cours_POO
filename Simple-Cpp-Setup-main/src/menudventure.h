@@ -5,3 +5,5 @@ namespace Menudventure {
 void start();
 
 }
+
+void menudventure();

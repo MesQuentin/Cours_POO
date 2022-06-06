@@ -1,7 +1,7 @@
 # Cours Clean Code !
 
 
-**All sources can be found at the site** : [Learn Clean Code with Cpp](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/).
+**All sources can be found at the site** : [Learn Clean Code with Cpp](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/).  
 Check it out to found all courses i'm referring to.
 
 Now, here a *summary* of what I did during several weeks :
@@ -24,12 +24,12 @@ Now, here a *summary* of what I did during several weeks :
 ##### Naming
 _Don't use abbreviations._ Already knew it but it's good to be reminded.
 
-_Append "out" to non-const reference parameters_ Check the courses on it for exemple.
+_Append "out" to non-const reference parameters_ Check the courses on it for exemple.  
 --> When a parameter is going to have is values changed in a function, add an _out_ at the end of it to make it clear.
 
 ##### Stack vs Heap
 
-_Almost always use <ins>the Stack</ins>_ `int i = 3;` _instead of_ `int* i = new int;` , so variable don't disappear at the end of the loop.
+_Almost always use <ins>the Stack</ins>_ `int i = 3;` _instead of_ `int* i = new int;` , so variable don't disappear at the end of the loop.  
 Use the Heap for big things, polymorphism and varying-size objects.
 
 ##### Consistency in style
@@ -109,9 +109,9 @@ Check this page to got useful shortcut (the page should fill up a little more ov
 
 ##### CMake
 
-Check this page. Again and again. 
-There's too much useful information and you never will remember it all if you don't code some CMake.
-So, check this page later.
+Check this page. Again and again.  
+There's too much useful information and you never will remember it all if you don't code some CMake.  
+So, check this page later.  
 
 ### Level 4 & 5
 
@@ -144,7 +144,7 @@ Just watch the following video later :
 
 #### <ins>Notes</ins> :
 
-Look at the function that checks if the user has returned the right type of argument. It's entilted `int user_take_a_guess()`
+Look at the function that checks if the user has returned the right type of argument. It's entilted `int user_take_a_guess()`  
 Could be useful later.
 
 #### Guess a number is working !
@@ -187,7 +187,15 @@ Could be useful later.
 
 - Install P6
 
-- [ ] Try without reading the tips  
+- [x] Try without reading the tips  
+--> Fail ! P6 is really a strange creature sometimes : ~~the board won't draw and the symbols don't appear~~
+
+- [x] Nought and Crosses able to launch : stroke parameters are needed + several pointers were missing
+
+- [x] Upgrade code with Jules tips/commit : use of `template<int board_size>`  
+
+- [ ] Make the `board()` function adpatable to the size of the wanted board (ex : 5 columns instead of 3)  
+--> Work on your matrix Quentin-to-be
 
 
 
